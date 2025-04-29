@@ -4,3 +4,6 @@
 */.vscode
 server/database/migrations/__pycache__/env.cpython-312.pyc
 server/database/migrations/script.py.mako
+__pycache__/
+*.py[cod]
+*$py.class
