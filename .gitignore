@@ -1,0 +1,6 @@
+*/.env
+*/venv
+*/.idea
+*/.vscode
+server/database/migrations/__pycache__/env.cpython-312.pyc
+server/database/migrations/script.py.mako
