@@ -5,8 +5,10 @@ class VehicleIn(BaseModel):
     brand: str
     model: str
     year:  int
+    color: str = Field(max_length=50)
 
 class VehicleOut(VehicleIn):
     id: int
+
     class Config:
         orm_mode = True
